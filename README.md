@@ -6,6 +6,7 @@ ArgoT
 * [Structure](#struct)
 	* [Design Diagram](#design)
 	* [File Structure](#file)
+	* [Instruction](#inst)
 * [Usage](#usage)
 * [References](#ref)
 
@@ -21,17 +22,20 @@ For long-term consideration, `Tornado` has a well-defined document, successor ca
 ##### <a id="design"></a> Desigan Diagram
 ![design](https://github.com/argolab/ArgoT/blob/master/DesignImage/Design.png)
 ##### <a id="file"></a> File Structure
-```
-ArgoT -- `
-         | -- argopy.py
+```python
+ArgoT -- \
+         | -- argo_api.py
+         | -- server.py
          | -- util
          | -- infrastructure
          | -- controller
-         | -- static -- `
+         | -- static -- \
          				| -- template
          				| -- css
          				| -- js
 ```
+##### <a id="inst"></a> Instruction
+Null
 ### <a id="usage"></a> Usage
 Null
 ## <a id="ref"></a> References
