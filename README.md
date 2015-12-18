@@ -18,9 +18,18 @@ For long-term consideration, `Tornado` has a well-defined document, successor ca
 
 ## <a id="struct"></a> Structure
 ### <a id="design"></a>
-![]()
+![design](https://github.com/argolab/ArgoT/blob/master/DesignImage/Design.png)
 ### <a id="file"></a>
 ```
+ArgoT -- `
+         | -- argopy.py
+         | -- util
+         | -- infrastructure
+         | -- controller
+         | -- static -- `
+         				| -- template
+         				| -- css
+         				| -- js
 ```
 ## <a id="usage"></a> Usage
 Null
